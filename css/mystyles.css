@@ -33,17 +33,17 @@ h2 {
 /* :root 代表 HTML ⽂件的根元素 (<html>) */
 :root {
     /* 覆蓋 Bootstrap 預設主⾊ (--bs-primary-rgb) 的 RGB 數值*/
-    /* 範例⽰範：設定為⾼質感「淡綠松石色」 (RGB: 175, 238, 238)*/
-    --bs-primary-rgb: 175, 238, 238;
+    /* 範例⽰範：設定為⾼質感「淡綠松石色」 (RGB: 95, 158, 160)*/
+    --bs-primary-rgb:  95, 158, 160;
 
     /* (可選) 同步統⼀超連結與滑⿏懸停顏⾊ */
-    --bs-link-color: rgb( 175, 238, 238);
+    --bs-link-color: rgb( 95, 158, 160);
     --bs-link-hover-color: rgb(15, 15, 80);
 }
 
 /* 同步修改社群圖⽰按鈕 Hover 時的背景⾊彩 */
 .social-icons .social-icon:hover {
-    background-color: rgb( 175, 238, 238);
+    background-color: rgb( 95, 158, 160);
 }
 
 /*===================================================
@@ -54,7 +54,7 @@ h2 {
 .resume-section {
     /* 設定柔和的淡乳⽩⾊或淡⿈⾊背景 (RGB: 255, 248, 220) */
     background-color: rgb(252, 249, 238);
-    
+
     /* (可選) 加⼊牆⾯/紙張紋理背景圖 (圖⽚路徑相對於 mystyles.css 檔案) */
     /* background-image: url('../assets/img/white-wall-3-2.png'); */
 }
